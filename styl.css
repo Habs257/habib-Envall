@@ -1,0 +1,150 @@
+li:hover{
+    background-color: #e7f8fc;
+}
+.voir{
+    background-color: #4995a6;
+    border: none;
+    width: 100px;
+}
+td{
+    color: #7b7b7b;
+}
+
+
+
+
+
+
+
+.row {
+  width: 14rem;
+  height: 20rem;
+  background-color: #008B8B;
+  margin-left: 3rem;
+  margin-top: 5rem;
+  border-radius: 10px;
+}
+
+.circle-container {
+  width: var(--dot-diameter);
+  height: var(--dot-diameter);
+  transform: rotate(-225deg);
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 75 100;
+  stroke-linecap: round;
+  margin-left: 2px;
+  margin-top: 2rem;
+}
+
+
+
+
+.circle-container__background {
+  fill: none;
+  stroke: var(--default-color);
+  stroke-width: var(--circle-border-width);
+  stroke-dasharray: 75 100;
+  stroke-linecap: round;
+}
+
+.circle-container__progress {
+  fill: none;
+  stroke: url(#gradient);
+  stroke-dasharray: 75 100;
+  stroke-linecap: round;
+  stroke-width: var(--circle-border-width);
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+.stop1 {
+  stop-color: #fff;
+}
+
+.stop2 {
+  stop-color: #fff;
+}
+.pourcentage {
+    margin-top: -7rem;
+    margin-left: 90px;
+    font-size: 23px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.posit {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 85px;
+    color: white;
+}
+.rows {
+    display: flex;
+} 
+
+
+  .circle-container__background1 {
+    fill: none;
+    stroke: #ede9e95c;
+    stroke-linecap: round;
+    stroke-width: var(--circle-border-width);
+  }
+  .circle-container__progress1 {
+    fill: none;
+    stroke-linecap: round;
+    stroke: url(#gradient1);
+    stroke-dasharray: 38 100;
+    stroke-linecap: round;
+    stroke-width: var(--circle-border-width);
+    transition: stroke-dashoffset 1s ease-in-out;
+  }
+  .stop3 {
+    stop-color: var(--default-color);
+  }
+  
+  .stop4 {
+    stop-color: var(--default-color);
+  }
+  .pourcentage1 {
+      margin-top: -7rem;
+      margin-left: 90px;
+      font-size: 23px;
+      color:#5b5353;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+.posit1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      margin-left: 85px;
+      color: #5b5353;
+  }
+
+  #cercle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #AFEEEE;
+    margin-left: 94px;
+    margin-top: 30px;
+}
+.chart {
+   height: 300px;
+   width: 60rem;
+   margin-top: 9rem;
+   margin-left: 3rem;
+}
+.Anal1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px ;
+    margin-left: 30px;
+    margin-top: -40px;
+    color: #5b5353;
+}

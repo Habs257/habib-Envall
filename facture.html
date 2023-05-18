@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styl.css">
+    <title>Dashboard</title>
+</head>
+<body style="height: 100vh;">
+    <div class="container-fluid d-flex" id="global" style="background-color: #ffff; height: 100vh;">
+        <!-- debut sidebar -->
+        <div class="container-fluid col-2 col-md-3 col-lg-2  " id="sidbar" style="background-color:#ffff">
+
+            <img src="image/images.png" alt="" class="d-none d-lg-block">
+            <div
+                class="container-fluid d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white">
+
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start mt-4 "
+                    id="menu">
+                    <li>
+                        <a href="dash.html"
+                            class="d-flex align-items-center pb-1 mb-md-0 me-md-auto text-decoration-none text-secondary">
+                            <i class="bi bi-grid"></i><span class=" d-none d-sm-inline  ms-2 ">Dashbord</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="facture.html" class="nav-link align-middle px-0  text-secondary">
+                            <i class="bi bi-person-circle"></i><span class="ms-2 d-none d-sm-inline">Facture</span>
+                        </a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="commande.html" class="nav-link px-0 align-middle text-secondary">
+                            <i class="bi bi-car-front-fill"></i><span class="ms-2 d-none d-sm-inline ">Commande</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="suivi.html" class="nav-link px-0 align-middle text-secondary">
+                            <i class="bi bi-bag"></i><span class="ms-2 d-none d-sm-inline ">Suivi</span></a>
+                    </li>
+                    <li>
+                        <a href="service-client.html" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-secondary">
+                            <i class="bi bi-chat-right-text"></i><span class="ms-2 d-none d-sm-inline ">Service
+                                Client</span></a>
+                    </li>
+                </ul>
+                <div class="dropdown pb-4" style="margin-top: 30vh;">
+                    <div class="dropdown pb-4">
+                            <a href="#" class="d-flex align-items-center text-decoration-none text-secondary">
+                                <i class="bi bi-gear"></i><span class="d-none d-sm-inline mx-2 ">Parametre Compte</span>
+                    </div>
+                    <li>
+                        <a href="#" class="d-flex align-items-center text-decoration-none text-secondary">
+                            <i class="bi bi-box-arrow-left"></i><span class="d-none d-sm-inline mx-2">Deconnexion</span>
+                    </li>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- fin sidbar -->
+
+        <!-- debut coté droit -->
+        <div class="container-fluid col-10 col-md-9 col-lg-10 " id="cotedroit" style="background-color: #d0e8ef;">
+            <!-- debut navbar -->
+            <div class="container-fluid col-12" id="r" style="background-color: white; height: 4rem;">
+
+                <nav class="navbar navbar-light ">
+                    <div class="">
+                        <a class="navbar-brand" href="#">
+                        </a>
+                        <img src="image/notificatin.jpg" style="width: 30px;" alt="">
+                        <img src="image/bostrap.png" style="width: 40px;" alt="">
+
+                    </div>
+                </nav>
+            </div>
+            <!-- fin nav bar -->
+            <!-- debut contenu -->
+            <div class="container-fluid" id="contenu">
+            <!-- fin sidbar -->
+    
+            <!-- debut coté droit -->
+                <div class="container-fluid col-10" id="cotedroit" style="background-color: #d0e8ef">
+                   
+                    </div>
+                    <!-- fin nav bar -->
+                    <!-- debut contenu -->
+                    <div class=" p-5 bg-light" id="" style=" margin-top: 1%; border-radius: 20px;">
+                            <div class="table-responsive">
+                            <table class="table table-bordered">
+                              <thead>
+                                <tr>
+                                    <th class="border-start-0 border-end-0 fs-3 text-secondary">Facture</th>
+                                    <td class="border-end-0 border-start-0"></td>
+                                    <td class="border-end-0 border-start-0"></td>
+                                    <td class="border-end-0 border-start-0"></td>
+                                    <td class="text-center border-start-0 border-end-0 "><input class=" rounded-3 p-1" style="background-color: #f5f4f6; border: none;font-family: bootstrap-icons;width: 200px;" type="search" name="" id="" placeholder="&#xF52A;" ></td>
+                                </tr>
+                              </thead>
+                                <tr >
+                                    <td class="text-center fs-5" style="border-left: none;">Factures </td>
+                                    <td class="text-center fs-5">Etat</td>
+                                    <td class="text-center fs-5">Date prévue</td>
+                                    <td class="text-center fs-5">Rapport</td>
+                                    <td class="text-center fs-5" style="border-right: none;">Cliquez pour voir le rapport</td>
+                                 </tr>
+                                 <tr>
+                                     <td class="text-center" style="border-left: none;">000112</td>
+                                     <td class="text-center">Reçu</td>
+                                     <td class="text-center">12/03/2023</td>
+                                     <td class="text-center">Non disponnible </td>
+                                     <td class="text-center border-end-0"><button class="voir p-1 text-white rounded-3">voir</button></td>
+                                  </tr>
+                                  <tr>
+                                     <td class="text-center" style="border-left: none;">000112</td>
+                                     <td></td>
+                                     <td></td>
+                                     <td></td>
+                                     <td class="text-center" style="border-right: none;"><button class="voir  p-1 text-white rounded-3">voir</button></td>
+                                  </tr>
+                                  <tr>
+                                     <td class="text-center" style="border-left: none;">000112</td>
+                                     <td></td>
+                                     <td></td>
+                                     <td></td>
+                                     <td class="text-center" style="border-right: none;"><button class="voir  p-1 text-white rounded-3"> voir</button></td>
+                                  </tr>
+                                  <tr>
+                                     <td class="text-center" style="border-left: none;">000112</td>
+                                     <td></td>
+                                     <td></td>
+                                     <td></td>
+                                     <td class="text-center" style="border-right: none;"><button class="voir  p-1 text-white rounded-3">voir</button></td>
+                                  </tr>
+                                  <tr>
+                                     <td class="text-center" style="border-left: none;">000112</td>
+                                     <td></td>
+                                     <td></td>
+                                     <td></td>
+                                     <td class="text-center" style="border-right: none;"><button class="voir  p-1 text-white rounded-3">voir</button></td>
+                                  </tr>
+                                  <tr>
+                                     <td class="text-center" style="border-left: none;">000112</td>
+                                     <td></td>
+                                     <td></td>
+                                     <td></td>
+                                     <td class="text-center" style="border-right: none;"><button class="voir  p-1 text-white rounded-3">voir</button></td>
+                                  </tr>
+                                  <tr>
+                                     <td class="text-center" style="border-left: none;">000112</td>
+                                     <td></td>
+                                     <td></td>
+                                     <td></td>
+                                     <td class="text-center" style="border-right: none;"><button class="voir  p-1 text-white rounded-3">voir</button></td>
+                                  </tr>
+                                  <tr>
+                                     <td class="text-center" style="border-left: none;">000112</td>
+                                     <td></td>
+                                     <td></td>
+                                     <td></td>
+                                     <td class="text-center" style="border-right: none;"><button class="voir   p-1 text-white rounded-3">voir</button></td>
+                                  </tr>
+                                 <tr>
+                                     <td class="text-center" style="border-left: none;">000112 </td>
+                                     <td></td>
+                                     <td></td>
+                                     <td></td>
+                                     <td class="text-center" style="border-right: none;"><button class="voir  p-1 text-white rounded-3">voir</button></td>
+                                  </tr>
+                                  <tr class="border-bottom-0">
+                                     <td class="text-center" style="border-left: none;">000112</td>
+                                     <td></td>
+                                     <td></td>
+                                     <td></td>
+                                     <td class="text-center" style="border-right: none;"><button class="voir  p-1 text-white rounded-3">voir</button></td>
+                                  </tr>
+                            </table>
+                        </div>
+                        
+                                             
+         
+    
+    
+    
+    
+    
+    
+                    </div>
+                    <!-- fin contenu -->
+                </div>
+            <!-- fin coté droit -->
+        </div>
+    </body>
+    </html>
+</body>
+</html>

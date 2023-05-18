@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styl.css">
+    <title>Dashboard</title>
+</head>
+
+<body style="height: 100vh;">
+    <div class="container-fluid d-flex" id="global" style="background-color: #ffff; height: 100vh;">
+        <!-- debut sidebar -->
+        <div class="container-fluid col-2 col-md-3 col-lg-2  " id="sidbar" style="background-color:#ffff">
+
+            <img src="image/images.png" alt="" class="d-none d-lg-block">
+            <div
+                class="container-fluid d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white">
+
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start mt-4 "
+                    id="menu">
+                    <li>
+                        <a href="dash.html"
+                            class="d-flex align-items-center pb-1 mb-md-0 me-md-auto text-decoration-none text-secondary">
+                            <i class="bi bi-grid"></i><span class=" d-none d-sm-inline  ms-2 ">Dashbord</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="facture.html" class="nav-link align-middle px-0  text-secondary">
+                            <i class="bi bi-person-circle"></i><span class="ms-2 d-none d-sm-inline">Facture</span>
+                        </a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="commande.html" class="nav-link px-0 align-middle text-secondary">
+                            <i class="bi bi-car-front-fill"></i><span class="ms-2 d-none d-sm-inline ">Commande</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="suivi.html" class="nav-link px-0 align-middle text-secondary">
+                            <i class="bi bi-bag"></i><span class="ms-2 d-none d-sm-inline ">Suivi</span></a>
+                    </li>
+                    <li>
+                        <a href="service-client.html" data-bs-toggle="collapse"
+                            class="nav-link px-0 align-middle text-secondary">
+                            <i class="bi bi-chat-right-text"></i><span class="ms-2 d-none d-sm-inline ">Service
+                                Client</span></a>
+                    </li>
+                </ul>
+                <div class="dropdown pb-4" style="margin-top: 30vh;">
+                    <div class="dropdown pb-4">
+                        <a href="#" class="d-flex align-items-center text-decoration-none text-secondary">
+                            <i class="bi bi-gear"></i><span class="d-none d-sm-inline mx-2 ">Parametre Compte</span>
+                    </div>
+                    <li>
+                        <a href="#" class="d-flex align-items-center text-decoration-none text-secondary">
+                            <i class="bi bi-box-arrow-left"></i><span class="d-none d-sm-inline mx-2">Deconnexion</span>
+                    </li>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- fin sidbar -->
+
+        <!-- debut coté droit -->
+        <div class="container-fluid col-10 col-md-9 col-lg-10 " id="cotedroit" style="background-color: #d0e8ef;">
+            <!-- debut navbar -->
+            <div class="container-fluid col-12" id="navbar" style="background-color: white; height: 4rem;">
+
+                <nav class="navbar navbar-light ">
+                    <div class="">
+                        <a class="navbar-brand" href="#">
+                        </a>
+                        <img src="image/notificatin.jpg" style="width: 30px;" alt="">
+                        <img src="image/bostrap.png" style="width: 40px;" alt="">
+                    </div>
+                </nav>
+            </div>
+            <!-- fin nav bar -->
+            <!-- debut contenu -->
+            <p class="text-center text-secondary fs-3">Rapport : R-TE202303001</p>
+            <div class="p-3" style="background-color: white;height: 100%;border-radius: 15px;" >
+                <table class="table bg-white table-borderless" style="margin: auto; border-color: white; border: 1px solid;">
+                    <img style="width: 200px;" src="image/logo_envlub.png" alt="">
+                    <p class="fs-2 text-secondary text-center">Rapport d’analyse (Moteur)</p>
+                    <thead>
+                        <tr style="background-color:#cfe7ef;">
+                            <th style=" background-color: #cfe7ef; " class="text-black py-0">Information Client</th>
+                            <th style=" background-color: #cfe7ef;"></th>
+                            <th style=" background-color: #cfe7ef;"></th>
+                            <th style= "background-color: #cfe7ef;"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="">
+                            <th class="text-black py-0">Nom du client :</th>
+                            <td class="text-black py-0">BOLUDA</td>
+                            <th class="text-black py-0">Site de travail : </th>
+                            <td  class="text-black py-0">ABIDJAN</td>
+                        </tr>
+                        <tr class="k">
+                            <th class="text-black py-0">Nom du Navire : </th>
+                            <td class="text-black py-0">V8 SUPERENZO</td>
+                            <th class="text-black py-0">Compartiment :</th>
+                            <td class="text-black py-0" >MOOTEUR PRINCIPAL BABORD</td>
+                        </tr>
+                        <tr class="">
+                            <th class="text-black py-0">Marque : </th>
+                            <td class="text-black py-0">CATERPILLAR</td>
+                            <th class="text-black py-0">Marque huile : </th>
+                            <td class="text-black py-0">PREMIUM</td>
+                        </tr>
+                        <tr class="">
+                            <th class="text-black py-0">Numéro de serie : </th>
+                            <td class="text-black py-0"></td>
+                            <th class="text-black py-0">Grade huile : </th>
+                            <td class="text-black py-0">20W50</td>
+                        </tr>
+                        <tr>
+                    </tbody>
+                </table>
+                <table class=" table table-borderless " style="border: 1px solid;margin-top: 5px">
+                    <thead>
+                        <tr>
+                            <th style="background-color:#cfe7ef;" colspan="5" class="py-0">
+                                Inforamtion Echantillons
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="py-0">Code échantillon :</th>
+                            <td class="py-0">06-269-0030</td>
+                            <td class="py-0">06-196-0014</td>
+                            <td class="py-0">06-115-0016</td>
+                            <td class="py-0">05-316-0020</td>
+                        </tr>
+                        <tr>
+                            <th class="py-0">Date de prélèvement : </th>
+                            <td class="py-0">01/09/2022</td>
+                            <td class="py-0">11/07/2022</td>
+                            <td class="py-0">15/04/2022</td>
+                            <td class="py-0">18/11/2021</td>
+                        </tr>
+                        <tr>
+                            <th class="py-0">Date d’analyse : </th>
+                            <td class="py-0">28/09/2022</td>
+                            <td class="py-0">21/07/2022</td>
+                            <td class="py-0">25/04/2022</td>
+                            <td class="py-0">18/11/2021</td>
+                        </tr>
+                        <tr>
+                            <th class="py-0">Compte horaire H : </th>
+                            <td class="py-0">-</td>
+                            <td class="py-0">-</td>
+                            <td class="py-0">-</td>
+                            <td class="py-0">-</td>
+                        </tr>
+                        <tr>
+                            <th>Age huile H </th>
+                            <td class="py-0">-</td>
+                            <td class="py-0">-</td>
+                            <td class="py-0">-</td>
+                            <td class="py-0">-</td>
+                        </tr>
+                        <tr>
+                            <th class="py-0">Vidange : </th>
+                            <td class="py-0">-</td>
+                            <td class="py-0">-</td>
+                            <td class="py-0">-</td>
+                            <td class="py-0">-</td>
+                        </tr>
+                        <tr>
+                            <th class="py-0">Appoint : </th>
+                            <td class="py-0">40</td>
+                            <td class="py-0">29</td>
+                            <td class="py-0">-35.7</td>
+                            <td class="py-0">127</td>
+                        </tr>
+                        <tr>
+                            <th class="py-0">Filtre changé : </th>
+                            <td class="py-0">-</td>
+                            <td class="py-0">-</td>
+                            <td class="py-0">-</td>
+                            <td class="py-0">-</td>
+                        </tr>
+                    </tbody>
+
+
+                </table>
+                <table>
+                    <thead></thead>
+                </table>
+
+           
+            </div>
+
+
+
+
+        </div>
+        <!-- fin contenu -->
+
+
+        <!-- fin coté droit -->
+    </div>
+</body>
+
+</html>
